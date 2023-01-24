@@ -80,3 +80,13 @@ footer p {
     top: 50%;
     height: 205px;
 }
+
+@media screen and (max-width:950px) {
+    body{
+        width: 90%;
+    }
+
+    .main{
+        width: 100%;
+    }
+}
