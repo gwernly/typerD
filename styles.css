@@ -1,0 +1,50 @@
+body{
+    background-image: url("img/fading-blue-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-top: 8em;
+}
+h2{
+    margin-bottom: 3em;
+}
+
+.reset{
+    display:none;
+}
+
+.mainDesaparece{
+    display:none;
+}
+
+
+footer p {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: white;
+    opacity: 0.8;
+}
+
+.social {
+    /*las imágenes usadas tienen width de 48px*/
+    width: 30px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    margin-right: 1%;
+    margin-top: -100px;
+    top: 50%;
+    height: 205px;
+}

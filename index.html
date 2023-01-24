@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>TYPER 3000 - Test de escritura</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h2>⌨️ TYPER 3000 ⌨️</h2>
+    <div class="main">
+      <p>Escribí la siguiente palabra:</p>
+
+      <h1 id="randomWord"></h1>
+
+      <input type="text" id="text" autocomplete="off" placeholder="Escribe la palabra aquí..." />
+
+      <p class="time-container">Tiempo restante: <span id="timeSpan">10s</span></p>
+
+      <p class="score-container">Score: <span id="score">0</span></p>
+    </div>
+    <div id="end-game-container" class="end-game-container"></div>
+    <button class="reset" onclick="location.reload()">Volvé a empezar</button>
+
+  </div>
+
+  <footer>
+    <p>Desarrollado por Wernly Guillermo</p>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/guillermowernly/" target="blank"><img
+          src="https://img.icons8.com/ios-filled/30/null/linkedin-circled--v1.png" alt="linkedin"></a>
+      <a href="https://github.com/gwernly" target="blank"><img
+          src="https://img.icons8.com/ios-filled/30/null/github.png" alt="github"></a>
+      <a href="https://wa.me:/+5493425178258" target="blank"><img
+          src="https://img.icons8.com/ios-filled/30/null/whatsapp--v1.png" alt="whatsapp"></a>
+      <a href="mailto:gwernly@gmail.com" target="blank"><img
+          src="https://img.icons8.com/ios-filled/30/null/composing-mail.png" alt="mail"></a>
+    </div>
+    <script src="script.js"></script>
+  </footer>
+
+</body>
+
+</html>
